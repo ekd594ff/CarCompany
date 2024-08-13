@@ -34,7 +34,10 @@
                         <li class="nav-item">
                             <button class="nav-link" formaction="/manager/read">role Manager</button>
                         </li>
-                    </sec:authorize>                                     
+                    </sec:authorize>
+                    <li class="nav-item">
+                        <button class="nav-link" formaction="/carcompany/list">Carcompany</button>
+                    </li>
                 </ul>
             </div>
             <ul class="nav navbar-nav navbar-right">
